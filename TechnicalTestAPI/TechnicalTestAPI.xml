@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TechnicalTestAPI</name>
+    </assembly>
+    <members>
+        <member name="M:TechnicalTestAPI.Controllers.ShiftManagerController.GetShiftsCountByPersonName(System.String)">
+            <summary>
+            name as input and returns the total number of shifts assigned to that person.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TechnicalTestAPI.Controllers.ShiftManagerController.GetShiftAllocationByRole">
+            <summary>
+            returns an array of role and the total number of shifts assigned to that role in descending order.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TechnicalTestAPI.Controllers.ShiftManagerController.GetLocations">
+            <summary>
+            returns a list of unique locations
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TechnicalTestAPI.Controllers.ShiftManagerController.GetActivePersonShifts(System.DateTime,System.DateTime)">
+            <summary>
+            retrieves a list of shifts for active people where the shift starts between two dates.
+            </summary>
+            <param name="startDate"></param>
+            <param name="endDate"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
